@@ -1,0 +1,59 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.microsoft.vc_redist</Name>
+  <DisplayName>Visual C++ Redistributable Runtime</DisplayName>
+  <Description>Libraries required for checking for updates</Description>
+  <Version>16.6.3</Version>
+  <ReleaseDate>2020-06-30</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile CompressedSize="19916543" UncompressedSize="29387704" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>7d746dbe896ffac692ca348f3e19e988ffca3ba7</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.slproweb.openssl</Name>
+  <DisplayName>Windows OpenSSL libraries</DisplayName>
+  <Description>Libraries required for checking for updates</Description>
+  <Version>1.1.1</Version>
+  <ReleaseDate>2020-03-04</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile CompressedSize="2223989" UncompressedSize="3692724" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f336439d6bd609ac1db646d6affbabdcc1d6d5f4</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>net.tangentmc.drivers</Name>
+  <DisplayName>Arduino UNO DFU Driver</DisplayName>
+  <Description>Driver required for programming Arduino UNOs</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2020-03-04</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile CompressedSize="163649" UncompressedSize="507858" OS="Any"/>
+  <DownloadableArchives>drivers.7z</DownloadableArchives>
+  <SHA1>cc73bd6059af7adda402437a757f9fe076963b27</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>net.tangentmc.guitar_configurator</Name>
+  <DisplayName>Ardwiino Configurator</DisplayName>
+  <Description>Install this program</Description>
+  <Version>v8.4.7</Version>
+  <ReleaseDate>2021-03-30</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <ForcedInstallation>true</ForcedInstallation>
+  <UpdateFile CompressedSize="21224311" UncompressedSize="86614135" OS="Any"/>
+  <DownloadableArchives>bearer.7z,binaries.7z,firmware.7z,iconengines.7z,imageformats.7z,platforms.7z,qmltooling.7z,Qt.7z,QtGraphicalEffects.7z,QtQml.7z,QtQuick.7z,QtQuick.2.7z,scenegraph.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
+  <SHA1>cae3a42b33beee075b40ec6010917f0d89996286</SHA1>
+ </PackageUpdate>
+ <SHA1>2f41403ae678a891ea1407da120b64310d111a04</SHA1>
+ <MetadataName>2021-03-30-0905_meta.7z</MetadataName>
+</Updates>
